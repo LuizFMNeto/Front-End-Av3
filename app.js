@@ -1,6 +1,6 @@
 
-const apiUrl = 'http://localhost:3000'; // Substitua pela URL do seu backend, se necessário
-3000
+const apiUrl = 'http://18.231.215.163:3000'; // Substitua pela URL do seu backend, se necessário
+
 // Função para mostrar todos os produtos
 async function getAllProducts() {
     const response = await fetch(`${apiUrl}/products`);
